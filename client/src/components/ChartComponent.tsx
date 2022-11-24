@@ -39,7 +39,6 @@ const ChartComponent = () => {
       series: uniqueCityUsersNumber,
       chartOptions,
     });
-    console.log(uniqueCityUsersNumber);
   };
 
   useEffect(() => {

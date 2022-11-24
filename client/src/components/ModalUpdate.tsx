@@ -85,8 +85,6 @@ const ModalUpdate = ({
         phone
       );
       toggle();
-    } else {
-      console.log('FORM IS NOT VALID');
     }
   };
 

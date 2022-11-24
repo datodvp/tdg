@@ -47,8 +47,6 @@ const ModalAdd = () => {
       const { name, gender, email, street, city, phone } = userData;
       addUser(name, gender, email, street, city, phone);
       toggle();
-    } else {
-      console.log('FORM IS NOT VALID');
     }
   };
 
